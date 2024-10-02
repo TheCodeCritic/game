@@ -5,7 +5,7 @@ num = random.randint(1,999)
 numGuessed = False
 
 while numGuessed == False:
-    guess = int(input("Guess the number: ")
+    guess = int(input("Guess the number: "))
     if guess > num:
         print("Lower")
     elif guess < num:
