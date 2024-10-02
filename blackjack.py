@@ -9,7 +9,7 @@ print(f"Your card is {str(currentCard)}")
 
 while cards != 21 or cards < 21:
     # main game loop
-    choice = input("Hit or fold").upper()
+    choice = input("Hit or fold: ").upper()
     if choice == "HIT":
         newCard = randint(1, 10)
         cards = cards + newCard
